@@ -38,4 +38,4 @@ GitHub Username: iamincognito123
 Profile: https://github.com/iamincognito123
 You can reach me at anhvudnguyen339@gmail.com with additional questions.
 
-<iframe src="https://drive.google.com/file/d/1oOySF9T1QMD1bRxjCLpOaZdK8StsfMVO/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1oOySF9T1QMD1bRxjCLpOaZdK8StsfMVO/view
