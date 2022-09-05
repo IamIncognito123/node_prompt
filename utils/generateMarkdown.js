@@ -4,17 +4,17 @@ function renderLicenseBadge(data) {
 if(data.license === 'Apache 2.0'){
   data.license = {
     badge: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-    link: 'apache link'
+    link: 'The application is covered under the Apache 2.0 license.'
   }
 }else if(data.license === 'Boost'){
   data.license = {
-    badge: '',
-    link: ''
+    badge: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
+    link: 'The application is covered under the Boost Software License 1.0.'
   }
 }else if(data.license === 'Eclipse'){
   data.license = {
-    badge: '',
-    link: ''
+    badge: '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)',
+    link: 'The application is covered under the Eclipse Public License 1.0.'
   }
 }else if(license === null){
   return console.log('no license')
