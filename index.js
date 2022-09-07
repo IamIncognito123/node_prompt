@@ -11,16 +11,19 @@ const questions = ['What is your github username?', 'What is your email?', 'What
 function writeToFile(fileName, data) {
     file.renderLicenseBadge(data);
     fs.writeFileSync(fileName, file.generateMarkdown(data))
-
-
-
 }
+// if you want to use fs.writeFile async,
+    // fs.writeFile(fileName, file.generateMarkdown(data),
+    // Err => {
+    //     if (Err) {
+    //       Console.Error(Err);
+    //     }})
 
 
 // TODO: Create a function to initialize app
 function init() {
 userPrompt();
-// file.renderLicenseBadge();
+
 
 }
 
@@ -77,7 +80,6 @@ const userPrompt = () => {
 
     ])
     .then((data) => writeToFile('README.md', data))
-    // .then((data) => file.renderLicenseBadge(data))
     .then(() => console.log(`Data successfully logged`))
     .catch((err) => console.error(err))
 }
